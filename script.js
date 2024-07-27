@@ -56,21 +56,21 @@ const checkwinner = () => {
 }
 
 const checkdraw = () => {
-    // if(
-        //     boxes[0]==="X"||"O" &&
-        //     boxes[1]==="X"||"O" &&
-        //     boxes[2]==="X"||"O" &&
-        //     boxes[3]==="X"||"O" &&
-        //     boxes[4]==="X"||"O" &&
-        //     boxes[5]==="X"||"O" &&
-        //     boxes[6]==="X"||"O" &&
-        //     boxes[7]==="X"||"O" &&
-        //     boxes[8]==="X"||"O" &&
-        //     boxes[9]==="X"||"O" 
-        // )
-        // {
-        //     console.log("Draw")
-        // }
+    if(
+            boxes[0].innerText==="X"||"O" &&
+            boxes[1].innerText==="X"||"O" &&
+            boxes[2].innerText==="X"||"O" &&
+            boxes[3].innerText==="X"||"O" &&
+            boxes[4].innerText==="X"||"O" &&
+            boxes[5].innerText==="X"||"O" &&
+            boxes[6].innerText==="X"||"O" &&
+            boxes[7].innerText==="X"||"O" &&
+            boxes[8].innerText==="X"||"O" &&
+            boxes[9].innerText==="X"||"O" 
+        )
+        {
+            console.log("Draw")
+        }
 }
 
 const showwinner = (winner) => {
