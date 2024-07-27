@@ -50,11 +50,27 @@ const checkwinner = () => {
                 console.log("winner",pos1)
                 showwinner(pos1);
             }else{
-                console.log("match draw")
-                showwdraw()
-            }
+                checkdraw();
         }
     }
+}
+
+const checkdraw = () => {
+    // if(
+        //     boxes[0]==="X"||"O" &&
+        //     boxes[1]==="X"||"O" &&
+        //     boxes[2]==="X"||"O" &&
+        //     boxes[3]==="X"||"O" &&
+        //     boxes[4]==="X"||"O" &&
+        //     boxes[5]==="X"||"O" &&
+        //     boxes[6]==="X"||"O" &&
+        //     boxes[7]==="X"||"O" &&
+        //     boxes[8]==="X"||"O" &&
+        //     boxes[9]==="X"||"O" 
+        // )
+        // {
+        //     console.log("Draw")
+        // }
 }
 
 const showwinner = (winner) => {
@@ -62,6 +78,6 @@ const showwinner = (winner) => {
     msg.classList.remove("hide")
 };
 
-const showwdraw = () => {
-    msg2.classList.remove("hide")   
-}
+// const showwdraw = () => {
+//     msg2.classList.remove("hide")   
+// }
